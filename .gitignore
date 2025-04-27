@@ -1,0 +1,64 @@
+# Python / Django
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.log
+__pycache__/
+
+# SQLite database
+db.sqlite3
+
+# Django migrations (except for __init__.py)
+**/migrations/
+!**/migrations/__init__.py
+
+# Environment files (Python & Django)
+.env
+*.env
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+
+# OS generated files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# IDE / Editor directories and files
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+#################################
+# React / Node files (Frontend)
+#################################
+
+# Dependencies
+node_modules/
+
+# Logs and runtime files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+
+# Lock files (optional, if you prefer keeping them out of version control)
+package-lock.json
+yarn.lock
+
+#################################
+# Others
+#################################
+
+# Coverage directory used by testing tools
+coverage/
